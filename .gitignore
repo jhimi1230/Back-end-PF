@@ -1,0 +1,34 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar directorio node_modules
+node_modules/
+
+# Ignorar logs
+logs/
+*.log
+
+# Ignorar los archivos de configuración de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de construcción
+dist/
+build/
+
+# Ignorar archivos de paquetes
+*.tgz
+*.zip
+
+# Ignorar archivos de dependencias específicas del editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de npm y Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
